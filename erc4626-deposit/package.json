@@ -4,14 +4,10 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest",
-    "@biomejs/biome": "^1.6.0"
+    "@types/bun": "latest"
   },
   "scripts": {
-    "test": "bun test",
-    "test:coverage": "bun test --coverage",
-    "test:anvil": "./anvil-setup.sh && bun test",
-    "test:anvil:coverage": "./anvil-setup.sh && bun test --coverage"
+    "test": "bun test --coverage"
   },
   "peerDependencies": {
     "typescript": "^5"
